@@ -1,12 +1,12 @@
 import "./MainPage.css";
 
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
-import SearchBar from "../SearchBar/SearchBar";
-import Dropdown from "../Dropdown/Dropdown";
-import MovieCard from "../MovieCard/MovieCard";
-import WishListItem from "../WishListItem/WishListItem";
-import WishButton from "../WishButton/WishButton";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import SearchBar from "../components/SearchBar/SearchBar";
+import Dropdown from "../components/Dropdown/Dropdown";
+import MovieCard from "../components/MovieCard/MovieCard";
+import WishListItem from "../components/WishListItem/WishListItem";
+import WishButton from "../components/WishButton/WishButton";
 
 function MainPage() {
   const movie = {
