@@ -2,9 +2,8 @@ import "./WishListItem.css";
 
 function WishListItem({ movie, onRemove }) {
   return (
-    <div className="wishlist-item">
+    <div className="wishlist-item" onClick={onRemove}>
       {movie.title}
-      <button onClick={onRemove}>X</button>
     </div>
   );
 }

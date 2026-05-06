@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 24px;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  flex: 1;
+  align-content: flex-start;
+}
+
+.wish-panel {
+  width: 280px;
+  flex-shrink: 0;
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  padding: 20px;
+  height: fit-content;
+  min-height: 600px;
+}
+
+.wish-panel h2 {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  padding: 16px 24px 0 24px;
+}
+
+.main-page {
+  background-color: #1a1a1a;
+}

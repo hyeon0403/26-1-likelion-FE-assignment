@@ -1,7 +1,12 @@
 import "./Footer.css";
 
-function Footer({ text }) {
-  return <footer className="footer">{text}</footer>;
+function Footer() {
+  return (
+    <footer className="footer">
+      <span>LIKELION X KWU</span>
+      <span>14TH FRONTEND</span>
+    </footer>
+  );
 }
 
 export default Footer;
