@@ -1,8 +1,15 @@
+.main-page {
+  background-color: #1a1a1a;
+  overflow-x: hidden;
+}
+
 .content {
   display: flex;
   flex-direction: row;
   gap: 24px;
   padding: 24px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .movie-list {
@@ -14,13 +21,13 @@
 }
 
 .wish-panel {
-  width: 280px;
+  width: 240px;
   flex-shrink: 0;
   background-color: #2a2a2a;
   border-radius: 12px;
   padding: 20px;
   height: fit-content;
-  min-height: 600px;
+  min-height: 660px
 }
 
 .wish-panel h2 {
@@ -32,8 +39,4 @@
   display: flex;
   gap: 12px;
   padding: 16px 24px 0 24px;
-}
-
-.main-page {
-  background-color: #1a1a1a;
 }
